@@ -63,13 +63,16 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
-  if (buttonOne.innerHTML !== ('[ ]')){
-    console.log("poop");
-  }
+  function check() {
+    if (buttonOne.textContent !== "[ ]" &&  buttonTwo.textContent !== "[ ]" && buttonThree.textContent !== "[ ]" && buttonFour.textContent !== "[ ]" && buttonFive.textContent !== "[ ]" && buttonSix.textContent !== "[ ]" && buttonSeven.textContent !== "[ ]" && buttonEight.textContent !== "[ ]" && buttonNine.textContent !== "[ ]"){
+     alert("S T A L E M A T E  B O Y S");
+     restart();
+    }
+  };
 
   function onceTwo() {
     if ( turn % 2 == 0){
@@ -81,7 +84,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -95,7 +98,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -109,7 +112,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -123,7 +126,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -137,7 +140,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -151,7 +154,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -165,7 +168,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
@@ -179,7 +182,7 @@ function restart() {
     turn++;
 
     winner();
-
+    check();
     return  turn;
   };
 
