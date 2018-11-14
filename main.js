@@ -53,6 +53,13 @@ function restart() {
   buttonNine.innerHTML = buttonNine.innerHTML.replace('[O]', '[ ]');
 };
 
+function check() {
+  if (buttonOne.textContent !== "[ ]" &&  buttonTwo.textContent !== "[ ]" && buttonThree.textContent !== "[ ]" && buttonFour.textContent !== "[ ]" && buttonFive.textContent !== "[ ]" && buttonSix.textContent !== "[ ]" && buttonSeven.textContent !== "[ ]" && buttonEight.textContent !== "[ ]" && buttonNine.textContent !== "[ ]"){
+   alert("S T A L E M A T E  B O Y S");
+   restart();
+  }
+};
+
   function onceOne() {
     if ( turn % 2 == 0){
       buttonOne.innerHTML = buttonOne.innerHTML.replace('[ ]', '[O]');
@@ -65,13 +72,6 @@ function restart() {
     winner();
     check();
     return  turn;
-  };
-
-  function check() {
-    if (buttonOne.textContent !== "[ ]" &&  buttonTwo.textContent !== "[ ]" && buttonThree.textContent !== "[ ]" && buttonFour.textContent !== "[ ]" && buttonFive.textContent !== "[ ]" && buttonSix.textContent !== "[ ]" && buttonSeven.textContent !== "[ ]" && buttonEight.textContent !== "[ ]" && buttonNine.textContent !== "[ ]"){
-     alert("S T A L E M A T E  B O Y S");
-     restart();
-    }
   };
 
   function onceTwo() {
