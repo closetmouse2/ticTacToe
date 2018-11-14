@@ -1,0 +1,40 @@
+body {
+  background-image: radial-gradient(circle, #ffffff, #e3d0ec, #d89dcb, #d16598, #c31c58);
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+ #coolFont {
+   font-family: "Rock Salt", cursive;
+ }
+
+ .blockStyle {
+   display: block;
+ }
+
+ h1 {
+   display: inline-block;
+   margin: 0em 0em 0em 0em;
+ }
+
+ table {
+   margin-left: 33.5%;
+   margin-top: 2em;
+   font-size: 60px;
+ }
+
+ td {
+   padding-right: 0 0 0 0;
+ }
+
+ button {
+  border: 1px;
+  background-image: radial-gradient(circle, #dd5ce7, #c056ce, #a44fb5, #8a489b, #714082);
+  height: 45px;
+  width: 110px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:'Press Start 2P', cursive;
+  position:relative;
+  top: 2em;
+ }
